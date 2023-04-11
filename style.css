@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor0: #ED4D1B;
+    --cor1: #FF9A3C;
+    --cor2: #000;
+    --cor3: #fff;
+}
+
+body {
+    background: linear-gradient(90deg, #FFE7D1 0%, #FFF2E6 100%);
+    padding: 0 1rem;
+}
+
+header, footer, .hero-section, .courses-section {
+    border-color: var(--cor2);
+    border-style: solid;
+    border-width:  0 1px 1px 1px;
+    padding: 1.2rem;
+}
+
+.text-cor {
+    color: var(--cor0);
+}
