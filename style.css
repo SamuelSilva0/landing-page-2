@@ -48,6 +48,31 @@ header nav a:nth-child(2n-1) {
     text-align: right;
 }
 
+.button {
+    background-color: var(--cor0);
+    border: 2px solid var(--cor2);
+    box-shadow: 4px 4px 0 var(--cor2);
+    color: var(--cor2);
+    display: block;
+    font-size: 1.25rem;
+    padding: .74rem 1rem;
+    max-width: 14rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.hero-section {
+    padding: right;
+    padding: bottom;
+}
+
+.hero-section img {
+    display: block;
+    margin: q;
+    max-width: 125rem;
+}
+
 .text-cor {
     color: var(--cor0);
 }
@@ -58,4 +83,17 @@ header nav a:nth-child(2n-1) {
 
 .mt-2 {
     margin-top: 2rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
 }
