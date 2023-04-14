@@ -63,14 +63,28 @@ header nav a:nth-child(2n-1) {
 }
 
 .hero-section {
-    padding: right;
-    padding: bottom;
+    padding-right: 0;
+    padding-bottom: 16rem;
 }
 
 .hero-section img {
     display: block;
-    margin: q;
-    max-width: 125rem;
+    margin: 1.25rem 0 0 auto;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 110%;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    padding-right: 1.25rem;
 }
 
 .text-cor {
