@@ -252,4 +252,20 @@ footer nav a {
     .container.row-reverse {
         flex-direction: row-reverse;
     }
+
+    .about {
+        flex: 2;
+    }
+    .about p {
+        font-size: 1.2rem;
+        max-width: 16rem;
+        text-align: end;
+    }
+    footer nav {
+        flex: 1;
+    }
+    .newsletter-form {
+        flex: 3;
+    }
+
 }
